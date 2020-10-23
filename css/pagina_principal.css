@@ -1,0 +1,83 @@
+/* general etilos para la pantalla principal*/
+
+:root {
+    --primary: #111854;
+    --light: #ffffff;
+    --grey: #efefef;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+.fondo-contenido {
+    background-color: white;
+}
+
+.color-fondo {
+    background-color: #c5d7e4;
+}
+
+.bg-primary {
+    background-color: var(--primary)!important;
+    border-radius: 3rem 0 0 0;
+}
+
+.sidebar-container {
+    min-height: 100vh;
+}
+
+.sidebar-container.menu {
+    width: 18rem;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.espacio-enca {
+    margin-top: 4rem;
+}
+
+.contorno {
+    border-radius: 0 2rem 0 0;
+}
+
+.espacio-tabla {
+    padding: 0 0 0 2rem!important;
+}
+
+
+/* fM */
+
+.g_altura {
+    height: 80px;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.g_fondo {
+    background-color: #ecf0f1;
+}
+
+.g_text {
+    color: #2bc1b2;
+}
+
+.g_fondo_iz {
+    background-color: #1156a2;
+}
+
+.g_fondo_nav {
+    background-color: #c5d7e4;
+}
+
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link {
+    color: #2bc1b2 !important;
+    background: none !important
+}
