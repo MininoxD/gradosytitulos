@@ -6,20 +6,20 @@
                 <img src="https://cdn.discordapp.com/attachments/702740918717120587/764275791495430165/ma.png">
             </div>
             <h2 class="centrar-texto">BIENVENIDO</h2>
-            <form class="contact" id="form_login" action="">
+            <form class="contact" id="form_login" >
                 <!-- Informacion Personal -->
 
                 <fieldset>
                     <label for="l_usuario">Nombre de Usuario</label>
-                    <input type="text" id="l_usuario" placeholder="Usuario" required>
+                    <input type="text" name="dni_u" id="l_usuario" placeholder="Usuario" required>
                     <label for="l_pass">Ingrese Contraseña</label>
-                    <input type="password" id="l_pass" placeholder="Contraseña" required>
+                    <input type="password" name="contrasena" id="l_pass" placeholder="Contraseña" required>
                 </fieldset>
 
                 <table class="table table-borderless">
                     <tbody>
                         <tr>
-                            <th><br><input onclick="login_verifica()" type="submit" class=" boton boton-verde" value=" INICIAR SESIÓN"></th>
+                            <th><br><input onclick="login_verifica()"  class=" boton boton-verde" value=" INICIAR SESIÓN"></th>
                             <th><br><input class="boton boton-amarillo" type="submit" value=" GUIA INICIO"></th>
                         </tr>
                     </tbody>
