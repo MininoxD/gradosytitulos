@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
 
 
-//carga el login
+//carga el login 
 function cargar_login(){
   $.get("includes/login.html", function(htmlexterno){
     //let contenido = htmlexterno;
@@ -14,18 +14,15 @@ function cargar_login(){
 }
 
 
-// Verificar el login para llamar a las paginas
+// Verificar el login para llamar a las paginas 
 function login_verifica(){
-    var datos = $('#form_login').serialize();
-    var id= $('#operacion').val();
-
 
     let usuario = $("#l_usuario").val();
     let pass = $("#l_pass").val();
 
     if(usuario=="admin1" && pass=="admin1"){
       $('#contenedor_principal').empty();
-
+      
     }else if(usuario=="admin2" && pass=="admin2") {
 
     }else if(usuario=="vice" && pass=="vice") {
